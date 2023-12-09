@@ -1,0 +1,29 @@
+/* program "con" replaced sequence of following ascii characters
+    it checks if the ascii value of the character is greater by
+    one than the last character, and if it finds sequence greater
+    than 3 following characters replaces it with a shortened version */
+#include <stdio.h>
+#include <string.h>
+#define MAXLINE 81
+void contract(char s1[], char s2[]);
+int main()
+{
+    char s1[MAXLINE]; /* for the original input */
+    char s2[MAXLINE]; /* for the sortened version */
+    int c, i;
+    printf("Please insert a line of characters:\n");
+
+	for (i=0; i<MAXLINE-1 && (c=getchar())!=EOF && c!='\n'; ++i)
+		s1[i] = c;
+	if (c == '\n')
+    {
+		s1[i] = c;
+		++i;
+	}
+	s1[i] = '\0';
+
+    contract(s1, s2);
+    printf("s1:%s\n", s1);
+    printf("s2:%s\n", s2);
+    return 0;
+}
