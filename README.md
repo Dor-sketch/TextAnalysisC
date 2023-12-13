@@ -1,8 +1,17 @@
-# C Text Processing Toolkit
+# Text Analysis C
 
 ## Overview 🌐
 
-**C Text Processing Toolkit** is a repository containing a collection of C programs designed for various text processing tasks. This toolkit currently includes two main programs: **Balanced Bracket Checker (BBC)** and **ASCII Sequence Compressor (ASC)**.
+**Text Analysis C** is a Text Processing Toolkit written in ANSI C. This repository contains a collection of C programs designed for various text processing tasks, each catering to specific needs in text analysis and manipulation. Currently, the toolkit includes two main programs:
+
+- **Balanced Bracket Checker (BBC)**: A utility to check if brackets in the input text are correctly balanced, considering various scenarios such as strings and comments in the code.
+- **ASCII Sequence Compressor (ASC)**: This program compresses sequences of consecutive ASCII characters, efficiently shortening strings by representing continuous sequences with a start and end character.
+
+The toolkit aims to provide robust and efficient solutions for common text processing challenges in programming and data analysis.
+
+![image](https://github.com/Dor-sketch/TextAnalysisC/assets/138825033/725b77aa-1dd6-43de-8040-c9c77fa10724)
+
+---
 
 ## Programs Included 📜
 
