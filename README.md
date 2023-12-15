@@ -9,8 +9,6 @@
 
 The toolkit aims to provide robust and efficient solutions for common text processing challenges in programming and data analysis.
 
-![image](https://github.com/Dor-sketch/TextAnalysisC/assets/138825033/725b77aa-1dd6-43de-8040-c9c77fa10724)
-
 ---
 
 ## Programs Included 📜
